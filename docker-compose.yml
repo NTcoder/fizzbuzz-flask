@@ -1,0 +1,16 @@
+version: '2.0'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.webapp
+    ports:
+      - '0.0.0.0:${WEBAPP_PORT}:${WEBAPP_PORT}'
+    networks:
+      - default
+    environment:
+      WEBAPP_PORT : ${WEBAPP_PORT}
+volumes:
+  webapp:
+networks:
+  default:

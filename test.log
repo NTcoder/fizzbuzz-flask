@@ -1,0 +1,19 @@
+$ docker logs -f fizzbuzz-flask_webapp_1
+ * Serving Flask app "flask_app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 229-347-591
+192.168.99.1 - - [02/Feb/2021 19:09:27] "POST / HTTP/1.1" 404 -
+192.168.99.1 - - [02/Feb/2021 19:11:00] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:06] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:10] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:14] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:19] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:27] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:34] "POST /fizzbuzz HTTP/1.1" 200 -
+192.168.99.1 - - [02/Feb/2021 19:11:38] "POST /fizzbuzz HTTP/1.1" 400 -
