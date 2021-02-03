@@ -11,9 +11,9 @@
 
 ### How to test API ###
 
-METHOD : POST
+Method : POST
 
-API : localhost:9000/fizzbuzz
+endpoint : localhost:9000/fizzbuzz
 
 Request : 
 
@@ -27,5 +27,9 @@ Reponse :
 ```
 "4"
 ```
+
 ### Test results ###
 *  test.log
+
+### Improvements ###
+* Swagger UI for documentation
